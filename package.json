@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Assignment 03 for Comp 426. A dice roll simulator",
   "main": "./lib/roll.js",
+  "bin": {
+    "roll-dice": "./bin/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a03-andrewyang24/issues"
   },
-  "homepage": "https://github.com/comp426-2022-fall/a03-andrewyang24#readme"
+  "homepage": "https://github.com/comp426-2022-fall/a03-andrewyang24#readme",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
 }
